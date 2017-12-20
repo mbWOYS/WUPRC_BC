@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>WUPRC</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="libs/docs/assets/owlcarousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="libs/docs/assets/owlcarousel/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+
+</head>
+
+<body>
+
+    <header>
+        <div id="container">
+            <div id="logo">
+                <a href="#one" id="company">WUPRC</a>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li>
+                        <a href="#one">Home</a>
+                    </li>
+                    <li>
+                        <a href="#two">About us</a>
+                    </li>
+                    <li>
+                        <a href="#three">Products</a>
+                    </li>
+                    <li>
+                        <a href="#four">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="container_burg">
+                <!-- Этот чекбокс даст нам поведение переключателя, он будет скрыт, но работать -->
+                <input id="toggle" type="checkbox">
+                <!-- ВАЖНО: любой элемент, который мы хотим модифицировать при изменении состояния чекбокса, является «братским» элементом для чекбокса -->
+                <!-- Эта метка привязана к чекбоксу и будет содержать переключение «кнопок» -->
+                <label class="toggle-container" for="toggle">
+            <!-- Если меню открыто, то здесь будет иконка «X», в противном случае просто иконка гамбургера --><span class="button button-toggle"></span> </label>
+                <!-- Навигация -->
+                <nav class="nav"> <a class="nav-item" href="#one">Home</a> <a rel="nofollow" rel="noreferrer" class="nav-item" href="#two">About us</a> <a rel="nofollow" rel="noreferrer" class="nav-item" href="#three">Product</a> <a rel="nofollow" rel="noreferrer" class="nav-item" href="#four">Contacts</a> </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- <div class="owl-hash-nav-header"> 
+        <a href="#one">one</a> 
+        <a href="#two">two</a> 
+        <a href="#three">three</a> 
+        <a href="#four">four</a> 
+    </div>-->
+
+    <div id="slideHolder">
+        <div class="owl-carousel">
+            <!-- first home page-->
+            <div data-hash="one" class="box" id="home">
+                <div id="title_photo">
+                    <img src="img/tubo2.jpg" id="title_photo_img" alt="pipe">
+
+                    <img src="img/home-mobile.jpg" alt="pipe" id="home_mobile_img" />
+
+                    <div id="welcome-text">
+                        <div id="welcome_text_p">
+                            <p id="welcome_top"> We are Western Ukrainian Pipe & Rail Company </p>
+<!--                            <p id="welcome_down">Learn more about us</p>-->
+                        </div>
+<!--
+                        <div id="newNavButs">
+                        	<a href="#two" id="newNavButs_about">About us</a>
+                       		<a href="#four" id="newNavButs_contacts">Contacts</a>
+                        </div>
+-->
+                    </div>
+
+
+                </div>
+            </div>
+
+            <!--second about page-->
+            <div data-hash="two" class="box">
+                <div id="container2">
+                    <div class="row">
+                        <div class="col col1">
+                            <img src="img/1.jpg" alt="pipe" />
+                        </div>
+                        <div class="col col2">
+                            <img src="img/2.jpg" alt="pipe" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col3">
+                            <p>WUPRC, Ltd. is a Ukrainian company that deals with steel products since 1999. Having gained solid experience in trading inside Ukraine and exporting to different countries and markets such as England, Germany, India, Vietnam, USA and Canada. We would like to promote our products to customers in North America. We can supply wide range of steel pipes – ERW pipe, SSAW pipe, LSAW pipe, SMLS pipe – dimensions and specifications per your request.</p>
+                        </div>
+                        <div class="col col4">
+                            <img src="img/3.jpg" alt="pipe" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col5">
+                            <img src="img/4.jpg" alt="pipe" />
+                        </div>
+                        <div class="col col6">
+                            <p>Moreover, we can offer for your demand new pipes of American, German, European, British and Japanese standards of Chinese origin as well as surplus and used shot- blasted pipes of Ukrainian and Russian origin .So if you are interested, feel free to send us your inquiries with accurate demands as for pipes dimensions, standards, quality, quantity, origin and destination point and we will quote FOB/CIF price for you.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col7">
+                            <p>Our company offers wide variety of used pipes of Ukrainian and Russian origin. The pipes is after gas and oil products (gasoline, diesel) use. The diameter range is from 9&quot; up to 56&quot; with various wall thickness. The quantities can be very large up to 10000-15000 tons of each diameter. Geographicaly they located over all Russia and Ukraine. We can collect them at the sea port Novorossiysk or Odessa and ship them to USA or worldwide. If you show some interest we can discuss the prices.</p>
+                        </div>
+                        <div class="col col8">
+                            <img src="img/5.jpg" alt="pipe" />
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col col9">
+                            <img src="img/6.jpg" alt="pipe" />
+                        </div>
+                        <div class="col col10">
+                            <img src="img/7.jpg" alt="pipe" />
+                        </div>
+                    </div>
+                    <div class="row-footer">
+                        <div id="order">
+                            <p>If you show some interest we can <span id="order_span">discuss</span> the prices</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--third product page-->
+            <div data-hash="three" class="box">
+
+                <div id="box">
+                    <div class="img"> <img src="img/icon1.jpg" class="img"></div>
+                    <div class="text">
+                        <h3 class="h_style">Experience</h3>
+                        <p class="p_style">Our company has extensive experience in running successful and profitable business in the markets of Ukraine, CIS, Europe, the Middle East. Speaking about the "steel" business, we are in it since April 1999. Our slogan is full quality and decency in work and in goods.</p>
+                        
+                        <p class="p_style">We have a huge experience of working with complex contracts and their timely execution. We work with the best logisticians and transport companies.</p>
+                            <p class="p_style">Our business partners always win. </p>
+                         
+                        </div>
+                </div>
+                <div id="box" class="box1">
+                    <div class="img" style="margin-top: -25px"> <img src="img/icon4.jpg" class="img img2"></div>
+                    <div class="text">
+                        <h3 class="h_style">Delivery</h3>
+                        <p class="p_style">We are ready to supply rolled metal products and pipe products to your address</p>
+                        <br> </div>
+                </div>
+                <div id="box">
+                    <div class="img"> <img src="img/icon6.jpg" class="img"></div>
+                    <div class="text">
+                        <h3 class="h_style" >Products</h3>
+                        <ul class="p_style ul_style">
+                            <li class="li_style">large diameters pipes, new seamless pipes (diameter 530 - 1420 mm);</li>
+                            <li class="li_style">medium diameters pipes, new welded and seamless (diameter 152 - 426 mm);</li>
+                            <li class="li_style">new hot-rolled metal sheet (6-40 mm), new high-grade metal rolls (angle, channel, h-beam (girder) ;</li>
+                            <li class="li_style">new reinforcement smooth and periodic profile;</li>
+                            <li class="li_style">new rails of all sizes.</li>
+                        </ul>
+                    </div>
+                </div>
+                <div id="box" class="box1">
+                    <div class="img"> <img src="img/icon7.jpg"  class="img img4"></div>
+                    <div class="text">
+                        <h3 class="h_style">Origin of metal:</h3>
+                        <p class="p_style">Ukraine / Russian Federation</p>
+                    </div>
+                </div>
+                <div id="box">
+                    <div class="img" style="margin-top: 50px "> <img src="img/icon15.jpg" class="img img3"></div>
+                    <div class="text">
+                        <h3 class="h_style">Terms of payment:</h3>
+                        <p class="p_style">payment on the fact of customs clearance (provision of the 4th copy of the railway bill of consignment / cargo customs declaration / bill of lading - with the mark of the customs authorities.</p>
+                        <p class="p_style" style="padding-top: -100px">The price - for 1 ton of the product is determined at the time of signing the contract.</p>
+                        <p class="p_style">Contract currency - USD / EUR</p>
+                    </div>
+                </div>
+                <div id="box">
+                    <div class="img" > <img src="img/icon10.jpg" class="img img5"></div>
+                    <div class="text">
+                        <h3 class="h_style h_6" >Terms of delivery:</h3>
+                        <p class="p_style">EXW / FOB / CIF.</p>
+                    </div>
+                </div>
+                <div id="box">
+                    <div class="img" style="margin-top: -15px"> <img src="img/icon11.jpg" class="img img6"></div>
+                    <div class="text">
+                        <h3 class="h_style" >Certification:</h3>
+                        <p class="p_style">certificate of origin / quality certificate of the manufacturer.</p>
+                    </div>
+                </div>
+                <div id="box">
+                    <div class="img"> <img src="img/icon3.jpg" class="img"></div>
+                    <div class="text">
+                        <h3 class="h_style">Discount:</h3>
+                        <p class="p_style">We can also offer used pipes (mechanical cleaning inside / outside /sandblasting, bevel.) This type of product is used for intended purpose, as a pipe for water pipes (drinking / technical water), sewage systems, piles for ports and bridges, construction (structural pipe). </p>
+                        
+                        <p class="p_style">The price is approximately 30-50% less of the cost of new pipes.</p>
+                    </div>
+                </div>
+                <div class="style_txt"><i>We hope for long-term and mutually beneficial cooperation.</i></div>
+
+            </div>
+
+
+            <!-- four-->
+                     <div data-hash="four" class="box">
+                <p id="p_contactUs">Contact us</p>
+                <div id="form_address">
+                    <div id="form_name">
+                        <form action="" name="contactForm"
+                          id="contactForm">
+                           <div id="nameField" style="display: flex; flex-direction: row;">
+                            <input type="text" placeholder="Introduce Yourself" name="name" id="name" onblur="nameValid('name')">
+                            </div>
+                            <div id="emailField" style="display: flex; flex-direction: row;">
+                            <input type="text" placeholder="Enter your email" name="email" id="email" onblur="emailValid('email')">
+                            </div>
+                            <div id="phoneField" style="display: flex; flex-direction: row;">
+                            <input type="text" placeholder="Enter your phone number" name="phoneNumber" id="phoneNumber" onblur="phoneValid('phoneNumber')">
+                            </div>
+                            <div id="TXT">
+                            <textarea name="" id="comment" placeholder="Your message . . ." onblur="textareaValid('comment')"></textarea>
+                            </div>
+                            <input type="button" value="Send message" name="submit" id="submit"><br>
+                        </form>
+                    </div>
+                    <div id="div_adress">
+                        <p id="p_adress">Western Ukrainian Pipe & Rail Company, Ltd. <br> WUPRC <br> 28 Sakharova street <br> Lviv, Lviv 79012 <br> UKRAINE <br>
+                            <br> Canada  +1(647) 898-3411 <br> USA  +1(412) 223-6142 <br> Ukraine  +38 (050) 325-2533 <br>
+                        </p>
+                    </div>
+                </div>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2573.641359816944!2d24.012259815180347!3d49.83040547939456!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x473add7cfab76be9%3A0x10a55b633cd722c8!2z0LLRg9C70LjRhtGPINCQ0LrQsNC00LXQvNGW0LrQsCDQkNC90LTRgNGW0Y8g0KHQsNGF0LDRgNC-0LLQsCwgMjgsINCb0YzQstGW0LIsINCb0YzQstGW0LLRgdGM0LrQsCDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1suk!2sua!4v1508943346935" width="50%" height="40%" frameborder="0" style="border:0; margin-left: 25%; margin-top: 3%; margin-bottom: 3%" allowfullscreen></iframe>
+            </div>
+        </div>
+
+       <!-- <div id="controls">
+            <div id="arrows_left"> <img src="img/left.png" alt="left_arrow"> </div>
+            <div id="arrows_right"> <img src="img/right.png" alt="right_arrow"> </div>
+        </div>-->
+
+        <!-- <div class="owl-hash-nav-footer" 
+            <a href="#one">one</a> 
+            <a href="#two">two</a> 
+            <a href="#three">three</a> 
+            <a href="#four">four</a> 
+        </div>-->
+
+
+        <footer>
+            <div id="footer-menu">
+                <div id="container3">
+                    <ul>
+                        <li>
+                            <a href="#one">Home</a>
+                        </li>
+                        <li>
+                            <a href="#two">About us</a>
+                        </li>
+                        <li>
+                            <a href="#three">Products</a>
+                        </li>
+                        <li>
+                            <a href="#four">Contacts</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div id="copyright">
+                <p>Developed by <span>M.U.L PRO</span></p>
+            </div>
+        </footer>
+
+
+
+    </div>
+    <script src="libs/jquery-3.2.1.js"></script>
+    <script src="libs/docs/assets/owlcarousel/owl.carousel.min.js"></script>
+    <script src="script.js"></script>
+    <script src="validation.js"></script>
+    <script src="ajaxForm.js"></script>
+</body>
+
+</html>
